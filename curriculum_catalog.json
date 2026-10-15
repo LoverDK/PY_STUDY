@@ -1,0 +1,861 @@
+{
+  "total": 142,
+  "deadline": "2027-03-01",
+  "excluded": [
+    "计算机系统原理"
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "n": 1,
+      "title": "语法快复（上）：IO·分支循环·字符串·容器·推导式",
+      "delivered": true
+    },
+    {
+      "id": "L02",
+      "n": 2,
+      "title": "语法快复（下）：函数·递归·文件·异常·类与继承",
+      "delivered": true
+    },
+    {
+      "id": "L03",
+      "n": 3,
+      "title": "从文件到分析表：pandas 读入与表结构",
+      "delivered": true
+    },
+    {
+      "id": "L04",
+      "n": 4,
+      "title": "NumPy：数组、索引、广播与统计汇总",
+      "delivered": true
+    },
+    {
+      "id": "L05",
+      "n": 5,
+      "title": "Pandas：缺失值、类型、分组与合并",
+      "delivered": true
+    },
+    {
+      "id": "L06",
+      "n": 6,
+      "title": "Matplotlib 折线与散点入门",
+      "delivered": false
+    },
+    {
+      "id": "L07",
+      "n": 7,
+      "title": "Matplotlib 柱状·直方图·图例与保存",
+      "delivered": false
+    },
+    {
+      "id": "L08",
+      "n": 8,
+      "title": "Pandas 描述统计与 value_counts 深练",
+      "delivered": false
+    },
+    {
+      "id": "L09",
+      "n": 9,
+      "title": "Pandas 多条件过滤与 loc/iloc 精熟",
+      "delivered": false
+    },
+    {
+      "id": "L10",
+      "n": 10,
+      "title": "Pandas apply / map / 自定义列",
+      "delivered": false
+    },
+    {
+      "id": "L11",
+      "n": 11,
+      "title": "Pandas 时间与排序·去重",
+      "delivered": false
+    },
+    {
+      "id": "L12",
+      "n": 12,
+      "title": "NumPy 进阶：花式索引与轴操作复习",
+      "delivered": false
+    },
+    {
+      "id": "L13",
+      "n": 13,
+      "title": "NumPy+Pandas 联用小卷（读表→数组统计）",
+      "delivered": false
+    },
+    {
+      "id": "L14",
+      "n": 14,
+      "title": "算法复杂度入门：大 O 与常见对照",
+      "delivered": false
+    },
+    {
+      "id": "L15",
+      "n": 15,
+      "title": "复杂度估题专项：循环嵌套与均摊直觉",
+      "delivered": false
+    },
+    {
+      "id": "L16",
+      "n": 16,
+      "title": "机试综合：Pandas 读洗筛汇小卷",
+      "delivered": false
+    },
+    {
+      "id": "L17",
+      "n": 17,
+      "title": "机试综合：可视化读图与作图指令",
+      "delivered": false
+    },
+    {
+      "id": "L18",
+      "n": 18,
+      "title": "Python 容器与推导式回炉（易错卷）",
+      "delivered": false
+    },
+    {
+      "id": "L19",
+      "n": 19,
+      "title": "函数与异常回炉（易错卷）",
+      "delivered": false
+    },
+    {
+      "id": "L20",
+      "n": 20,
+      "title": "阶段小结：DSBA-Python 应知应会清单",
+      "delivered": false
+    },
+    {
+      "id": "L21",
+      "n": 21,
+      "title": "数组与字符串基础操作",
+      "delivered": false
+    },
+    {
+      "id": "L22",
+      "n": 22,
+      "title": "双指针：对撞与同向",
+      "delivered": false
+    },
+    {
+      "id": "L23",
+      "n": 23,
+      "title": "滑动窗口入门",
+      "delivered": false
+    },
+    {
+      "id": "L24",
+      "n": 24,
+      "title": "滑动窗口进阶（可变窗口）",
+      "delivered": false
+    },
+    {
+      "id": "L25",
+      "n": 25,
+      "title": "链表：概念与遍历",
+      "delivered": false
+    },
+    {
+      "id": "L26",
+      "n": 26,
+      "title": "链表：反转与快慢指针",
+      "delivered": false
+    },
+    {
+      "id": "L27",
+      "n": 27,
+      "title": "链表：合并与环检测",
+      "delivered": false
+    },
+    {
+      "id": "L28",
+      "n": 28,
+      "title": "栈：括号匹配与单调栈入门",
+      "delivered": false
+    },
+    {
+      "id": "L29",
+      "n": 29,
+      "title": "栈：表达式与单调栈进阶",
+      "delivered": false
+    },
+    {
+      "id": "L30",
+      "n": 30,
+      "title": "队列与双端队列",
+      "delivered": false
+    },
+    {
+      "id": "L31",
+      "n": 31,
+      "title": "递归思维与调用栈",
+      "delivered": false
+    },
+    {
+      "id": "L32",
+      "n": 32,
+      "title": "分治入门",
+      "delivered": false
+    },
+    {
+      "id": "L33",
+      "n": 33,
+      "title": "二叉树：遍历（前中后层序）",
+      "delivered": false
+    },
+    {
+      "id": "L34",
+      "n": 34,
+      "title": "二叉树：高度·对称·路径和",
+      "delivered": false
+    },
+    {
+      "id": "L35",
+      "n": 35,
+      "title": "二叉搜索树 BST 基础",
+      "delivered": false
+    },
+    {
+      "id": "L36",
+      "n": 36,
+      "title": "BST 插入删除与验证",
+      "delivered": false
+    },
+    {
+      "id": "L37",
+      "n": 37,
+      "title": "堆与优先队列",
+      "delivered": false
+    },
+    {
+      "id": "L38",
+      "n": 38,
+      "title": "堆练习：TopK 与中位数直觉",
+      "delivered": false
+    },
+    {
+      "id": "L39",
+      "n": 39,
+      "title": "哈希表：计数与去重",
+      "delivered": false
+    },
+    {
+      "id": "L40",
+      "n": 40,
+      "title": "哈希表：前缀与两数之和族",
+      "delivered": false
+    },
+    {
+      "id": "L41",
+      "n": 41,
+      "title": "排序：选择·插入·冒泡（实现与复杂度）",
+      "delivered": false
+    },
+    {
+      "id": "L42",
+      "n": 42,
+      "title": "排序：归并排序",
+      "delivered": false
+    },
+    {
+      "id": "L43",
+      "n": 43,
+      "title": "排序：快速排序",
+      "delivered": false
+    },
+    {
+      "id": "L44",
+      "n": 44,
+      "title": "二分查找：基础模板",
+      "delivered": false
+    },
+    {
+      "id": "L45",
+      "n": 45,
+      "title": "二分查找：边界与答案二分",
+      "delivered": false
+    },
+    {
+      "id": "L46",
+      "n": 46,
+      "title": "图：表示法与 BFS",
+      "delivered": false
+    },
+    {
+      "id": "L47",
+      "n": 47,
+      "title": "图：DFS 与连通性",
+      "delivered": false
+    },
+    {
+      "id": "L48",
+      "n": 48,
+      "title": "图：拓扑排序入门",
+      "delivered": false
+    },
+    {
+      "id": "L49",
+      "n": 49,
+      "title": "图：最短路 BFS（无权）",
+      "delivered": false
+    },
+    {
+      "id": "L50",
+      "n": 50,
+      "title": "贪心策略入门",
+      "delivered": false
+    },
+    {
+      "id": "L51",
+      "n": 51,
+      "title": "贪心典型题对照",
+      "delivered": false
+    },
+    {
+      "id": "L52",
+      "n": 52,
+      "title": "动态规划入门：斐波那契与爬楼梯",
+      "delivered": false
+    },
+    {
+      "id": "L53",
+      "n": 53,
+      "title": "一维 DP：最大子数组与打家劫舍族",
+      "delivered": false
+    },
+    {
+      "id": "L54",
+      "n": 54,
+      "title": "一维 DP：背包直觉（0-1）",
+      "delivered": false
+    },
+    {
+      "id": "L55",
+      "n": 55,
+      "title": "二维 DP 入门：路径计数",
+      "delivered": false
+    },
+    {
+      "id": "L56",
+      "n": 56,
+      "title": "字符串算法：KMP 直觉或暴力对照",
+      "delivered": false
+    },
+    {
+      "id": "L57",
+      "n": 57,
+      "title": "综合：数组字符串套题日",
+      "delivered": false
+    },
+    {
+      "id": "L58",
+      "n": 58,
+      "title": "综合：链表栈队列套题日",
+      "delivered": false
+    },
+    {
+      "id": "L59",
+      "n": 59,
+      "title": "综合：树与图套题日",
+      "delivered": false
+    },
+    {
+      "id": "L60",
+      "n": 60,
+      "title": "DSA 阶段小结与易错清单",
+      "delivered": false
+    },
+    {
+      "id": "L61",
+      "n": 61,
+      "title": "机器学习地图：监督/无监督/强化学习",
+      "delivered": false
+    },
+    {
+      "id": "L62",
+      "n": 62,
+      "title": "数据划分与评估指标：分类",
+      "delivered": false
+    },
+    {
+      "id": "L63",
+      "n": 63,
+      "title": "评估指标：回归与过拟合欠拟合",
+      "delivered": false
+    },
+    {
+      "id": "L64",
+      "n": 64,
+      "title": "线性回归：直觉与 sklearn",
+      "delivered": false
+    },
+    {
+      "id": "L65",
+      "n": 65,
+      "title": "逻辑回归：分类基线",
+      "delivered": false
+    },
+    {
+      "id": "L66",
+      "n": 66,
+      "title": "特征缩放与管道 Pipeline 入门",
+      "delivered": false
+    },
+    {
+      "id": "L67",
+      "n": 67,
+      "title": "KNN 与模型选择直觉",
+      "delivered": false
+    },
+    {
+      "id": "L68",
+      "n": 68,
+      "title": "决策树与随机森林入门",
+      "delivered": false
+    },
+    {
+      "id": "L69",
+      "n": 69,
+      "title": "SVM 直觉（不深推）",
+      "delivered": false
+    },
+    {
+      "id": "L70",
+      "n": 70,
+      "title": "聚类：KMeans 与轮廓直觉",
+      "delivered": false
+    },
+    {
+      "id": "L71",
+      "n": 71,
+      "title": "降维直觉：PCA 入门",
+      "delivered": false
+    },
+    {
+      "id": "L72",
+      "n": 72,
+      "title": "sklearn 综合项目课（短）",
+      "delivered": false
+    },
+    {
+      "id": "L73",
+      "n": 73,
+      "title": "交叉验证与网格搜索入门",
+      "delivered": false
+    },
+    {
+      "id": "L74",
+      "n": 74,
+      "title": "类别不平衡与阈值处理直觉",
+      "delivered": false
+    },
+    {
+      "id": "L75",
+      "n": 75,
+      "title": "特征工程常用手法",
+      "delivered": false
+    },
+    {
+      "id": "L76",
+      "n": 76,
+      "title": "经典 ML 易错与面试口述",
+      "delivered": false
+    },
+    {
+      "id": "L77",
+      "n": 77,
+      "title": "ML→DL 衔接：表示学习直觉",
+      "delivered": false
+    },
+    {
+      "id": "L78",
+      "n": 78,
+      "title": "经典 ML 阶段小结",
+      "delivered": false
+    },
+    {
+      "id": "L79",
+      "n": 79,
+      "title": "神经网络直觉：感知机到 MLP",
+      "delivered": false
+    },
+    {
+      "id": "L80",
+      "n": 80,
+      "title": "激活函数与损失函数",
+      "delivered": false
+    },
+    {
+      "id": "L81",
+      "n": 81,
+      "title": "反向传播直觉（计算图）",
+      "delivered": false
+    },
+    {
+      "id": "L82",
+      "n": 82,
+      "title": "用极简代码搭一个 MLP",
+      "delivered": false
+    },
+    {
+      "id": "L83",
+      "n": 83,
+      "title": "优化器：SGD / Momentum / Adam 直觉",
+      "delivered": false
+    },
+    {
+      "id": "L84",
+      "n": 84,
+      "title": "学习率、batch、epoch",
+      "delivered": false
+    },
+    {
+      "id": "L85",
+      "n": 85,
+      "title": "正则化：权重衰减·Dropout·早停",
+      "delivered": false
+    },
+    {
+      "id": "L86",
+      "n": 86,
+      "title": "CNN：卷积与特征图",
+      "delivered": false
+    },
+    {
+      "id": "L87",
+      "n": 87,
+      "title": "CNN：池化、感受野、经典小结构",
+      "delivered": false
+    },
+    {
+      "id": "L88",
+      "n": 88,
+      "title": "CNN 练习：图像分类流程（概念+短代码）",
+      "delivered": false
+    },
+    {
+      "id": "L89",
+      "n": 89,
+      "title": "RNN：序列与隐藏状态",
+      "delivered": false
+    },
+    {
+      "id": "L90",
+      "n": 90,
+      "title": "LSTM/GRU 直觉",
+      "delivered": false
+    },
+    {
+      "id": "L91",
+      "n": 91,
+      "title": "注意力机制入门",
+      "delivered": false
+    },
+    {
+      "id": "L92",
+      "n": 92,
+      "title": "Encoder-Decoder 与 seq2seq 直觉",
+      "delivered": false
+    },
+    {
+      "id": "L93",
+      "n": 93,
+      "title": "Transformer 结构鸟瞰",
+      "delivered": false
+    },
+    {
+      "id": "L94",
+      "n": 94,
+      "title": "词嵌入与文本输入表示",
+      "delivered": false
+    },
+    {
+      "id": "L95",
+      "n": 95,
+      "title": "CV 任务地图：分类/检测/分割（只地图）",
+      "delivered": false
+    },
+    {
+      "id": "L96",
+      "n": 96,
+      "title": "训练现场：数据增强直觉",
+      "delivered": false
+    },
+    {
+      "id": "L97",
+      "n": 97,
+      "title": "训练现场：梯度消失爆炸与初始化",
+      "delivered": false
+    },
+    {
+      "id": "L98",
+      "n": 98,
+      "title": "评估：混淆矩阵之外的 DL 指标",
+      "delivered": false
+    },
+    {
+      "id": "L99",
+      "n": 99,
+      "title": "迁移学习与微调直觉（应用级）",
+      "delivered": false
+    },
+    {
+      "id": "L100",
+      "n": 100,
+      "title": "PyTorch 张量与 autograd 快过",
+      "delivered": false
+    },
+    {
+      "id": "L101",
+      "n": 101,
+      "title": "PyTorch Module 与训练循环骨架",
+      "delivered": false
+    },
+    {
+      "id": "L102",
+      "n": 102,
+      "title": "常见报错与调试训练（形状/设备/NaN）",
+      "delivered": false
+    },
+    {
+      "id": "L103",
+      "n": 103,
+      "title": "DL 小卷：MLP 题",
+      "delivered": false
+    },
+    {
+      "id": "L104",
+      "n": 104,
+      "title": "DL 小卷：CNN/RNN 概念题",
+      "delivered": false
+    },
+    {
+      "id": "L105",
+      "n": 105,
+      "title": "DL 与经典 ML 怎么选题",
+      "delivered": false
+    },
+    {
+      "id": "L106",
+      "n": 106,
+      "title": "伦理与局限（过拟合到数据泄漏）",
+      "delivered": false
+    },
+    {
+      "id": "L107",
+      "n": 107,
+      "title": "深度学习阶段小结",
+      "delivered": false
+    },
+    {
+      "id": "L108",
+      "n": 108,
+      "title": "DL 口述面试清单",
+      "delivered": false
+    },
+    {
+      "id": "L109",
+      "n": 109,
+      "title": "人工智能导论：问题类型与智能体视角",
+      "delivered": false
+    },
+    {
+      "id": "L110",
+      "n": 110,
+      "title": "搜索：盲目搜索 BFS/DFS 复习",
+      "delivered": false
+    },
+    {
+      "id": "L111",
+      "n": 111,
+      "title": "搜索：启发式与 A* 直觉",
+      "delivered": false
+    },
+    {
+      "id": "L112",
+      "n": 112,
+      "title": "知识表示浅谈",
+      "delivered": false
+    },
+    {
+      "id": "L113",
+      "n": 113,
+      "title": "不确定性：概率复习与贝叶斯",
+      "delivered": false
+    },
+    {
+      "id": "L114",
+      "n": 114,
+      "title": "朴素贝叶斯与生成式直觉",
+      "delivered": false
+    },
+    {
+      "id": "L115",
+      "n": 115,
+      "title": "强化学习鸟瞰（不深实装）",
+      "delivered": false
+    },
+    {
+      "id": "L116",
+      "n": 116,
+      "title": "符号 vs 连接主义简史地图",
+      "delivered": false
+    },
+    {
+      "id": "L117",
+      "n": 117,
+      "title": "大模型能做什么 / 不能做什么",
+      "delivered": false
+    },
+    {
+      "id": "L118",
+      "n": 118,
+      "title": "提示词工程基础",
+      "delivered": false
+    },
+    {
+      "id": "L119",
+      "n": 119,
+      "title": "工具调用与 Agent 循环",
+      "delivered": false
+    },
+    {
+      "id": "L120",
+      "n": 120,
+      "title": "RAG 直觉（检索增强）",
+      "delivered": false
+    },
+    {
+      "id": "L121",
+      "n": 121,
+      "title": "AI 应用小设计课（步骤级）",
+      "delivered": false
+    },
+    {
+      "id": "L122",
+      "n": 122,
+      "title": "人工智能导论阶段小结",
+      "delivered": false
+    },
+    {
+      "id": "L123",
+      "n": 123,
+      "title": "关系模型与表直觉",
+      "delivered": false
+    },
+    {
+      "id": "L124",
+      "n": 124,
+      "title": "SQL SELECT / WHERE / ORDER BY",
+      "delivered": false
+    },
+    {
+      "id": "L125",
+      "n": 125,
+      "title": "多表 JOIN（INNER/LEFT）",
+      "delivered": false
+    },
+    {
+      "id": "L126",
+      "n": 126,
+      "title": "JOIN 进阶与注意事项",
+      "delivered": false
+    },
+    {
+      "id": "L127",
+      "n": 127,
+      "title": "聚合 GROUP BY / HAVING",
+      "delivered": false
+    },
+    {
+      "id": "L128",
+      "n": 128,
+      "title": "子查询",
+      "delivered": false
+    },
+    {
+      "id": "L129",
+      "n": 129,
+      "title": "窗口函数入门（可选考点浅讲）",
+      "delivered": false
+    },
+    {
+      "id": "L130",
+      "n": 130,
+      "title": "索引与执行直觉",
+      "delivered": false
+    },
+    {
+      "id": "L131",
+      "n": 131,
+      "title": "事务与 ACID 直觉",
+      "delivered": false
+    },
+    {
+      "id": "L132",
+      "n": 132,
+      "title": "SQL 综合小卷与阶段小结",
+      "delivered": false
+    },
+    {
+      "id": "L133",
+      "n": 133,
+      "title": "C 程序结构与编译运行",
+      "delivered": false
+    },
+    {
+      "id": "L134",
+      "n": 134,
+      "title": "基本类型、运算符与控制流",
+      "delivered": false
+    },
+    {
+      "id": "L135",
+      "n": 135,
+      "title": "数组与字符串（C）",
+      "delivered": false
+    },
+    {
+      "id": "L136",
+      "n": 136,
+      "title": "指针基础",
+      "delivered": false
+    },
+    {
+      "id": "L137",
+      "n": 137,
+      "title": "指针与数组、函数传参",
+      "delivered": false
+    },
+    {
+      "id": "L138",
+      "n": 138,
+      "title": "结构体与 typedef",
+      "delivered": false
+    },
+    {
+      "id": "L139",
+      "n": 139,
+      "title": "动态内存 malloc/free",
+      "delivered": false
+    },
+    {
+      "id": "L140",
+      "n": 140,
+      "title": "头文件、多文件与链接直觉",
+      "delivered": false
+    },
+    {
+      "id": "L141",
+      "n": 141,
+      "title": "常见未定义行为与调试",
+      "delivered": false
+    },
+    {
+      "id": "L142",
+      "n": 142,
+      "title": "C 综合小卷与长课表收官",
+      "delivered": false
+    }
+  ]
+}

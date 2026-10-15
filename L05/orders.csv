@@ -1,0 +1,7 @@
+order_id,customer_id,amount,status
+O101,C01,120.5,paid
+O102,C02,80.0,paid
+O103,C01,45.0,refund
+O104,C03,,paid
+O105,C99,200.0,paid
+O106,C02,33.5,

@@ -1,0 +1,5 @@
+# L05 作业
+
+1. 先独立完成上级目录的 `homework.md`。
+2. 标准答案写在本目录 `answers.ipynb`，约北京时间 **15:30** 由例行写入。
+3. 请先做再看；对照时重点看 `fillna`/`dropna`、`groupby`+`agg`、`merge`/`concat` 是否写对。

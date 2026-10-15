@@ -1,0 +1,10 @@
+[
+  {"sid": "2026001", "name": "陈一", "major": "统计", "score": 88, "passed": true},
+  {"sid": "2026002", "name": "王二", "major": "金融", "score": 57, "passed": false},
+  {"sid": "2026003", "name": "张三", "major": "统计", "score": 92, "passed": true},
+  {"sid": "2026004", "name": "李四", "major": "大数据", "score": 73, "passed": true},
+  {"sid": "2026005", "name": "赵五", "major": "金融", "score": 61, "passed": true},
+  {"sid": "2026006", "name": "钱六", "major": "大数据", "score": 45, "passed": false},
+  {"sid": "2026007", "name": "孙七", "major": "统计", "score": 79, "passed": true},
+  {"sid": "2026008", "name": "周八", "major": "大数据", "score": 95, "passed": true}
+]
