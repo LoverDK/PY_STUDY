@@ -114,6 +114,7 @@ def demo_numpy_pandas() -> None:
 
     csv_path = HERE / "sales_daily.csv"
     df = pd.read_csv(csv_path, encoding="utf-8")
+    df = df[["day", "sales"]].dropna().sort_values("day")
     plt.figure()
     plt.plot(df["day"], df["sales"], marker="o", color="steelblue")
     plt.xlabel("day")

@@ -1,254 +1,135 @@
-# 每日 DSBA-Python · L06
+# L06 Matplotlib 折线与散点入门
 
-**Matplotlib 折线与散点入门**
+阶段：A · DSBA/Python/可视化/复杂度。
+范围：折线、散点、英文标签、标题、网格、基础线型与双系列比较。图例和保存只掌握本课必需操作，柱状图、直方图及系统保存参数留到 L07；不讲 seaborn、模型训练、计算机系统原理。
 
-对应考纲 **b**。L03–L05 已会读表、清洗、分组汇总；本课把数字 **画成图**。  
-**今日范围**：`matplotlib.pyplot`；`plt.plot`（折线）；`plt.scatter`（散点）；`xlabel`/`ylabel`/`title`/`grid`；多系列基础样式。  
-**不讲**：seaborn；仪表盘；`hist`/`bar`（**L07**）；`savefig` 深参数与图例规范（L07）；sklearn；408。
-
-**中文标签**：Windows 默认字体常显示为方框。作业与验收 **统一英文轴标签**。
-
----
+仓库路径：L06/。
 
 ## 今日目标
 
-1. 会 `import matplotlib.pyplot as plt`；脚本无 GUI 时知道先 `matplotlib.use("Agg")`  
-2. 会 `plt.plot(x, y)` 画折线，并加 `xlabel`/`ylabel`/`title`/`grid(True)`  
-3. 会改颜色、线型、标记；能在一张图上画两条折线并 `legend()`（轻量）  
-4. 会 `plt.scatter(x, y)`；分清何时用折线、何时用散点  
-5. 知道 `x`/`y` 等长校验；脚本里 `savefig` + `close`；完成三道练习
+读完后你应能：依据问题选 plot 或 scatter；从同一批观测中提取等长 x/y；画出标注完整的图；区分颜色、线型、标记；封装满足长度校验、保存、关闭、返回值约定的函数。
 
----
+## 一、是什么：图是数据含义的编码
 
-## 详实讲解
+Matplotlib 是 Python 的绘图库，pyplot 是常见的入门接口，惯例写成 import matplotlib.pyplot as plt。Figure 是整张画布，Axes 是画布上的一个坐标系；注意 Axes 不是单指某一根 x 轴或 y 轴。
 
-### 1. 是什么
+plot(x, y) 把第 i 个横坐标和第 i 个纵坐标配成点，再按输入顺序连接。scatter(x, y) 表达同样的点对，但不主动连接，因而不暗示前后顺序。它们都不是“把两列数字随便扔进去”：同一位置上的 x/y 必须描述同一个观测。
 
-| 概念 | 定义 | 怎么看 |
-|------|------|--------|
-| **pyplot（plt）** | Matplotlib 的「当前图」式 API | `import matplotlib.pyplot as plt` |
-| **Figure / Axes** | 画布 / 画布上的坐标系 | 初学用 plt 默认当前轴即可 |
-| **折线 plot** | 按顺序把点连成线，看趋势 | `plt.plot(x, y)` |
-| **散点 scatter** | 只画点不连线，看两变量关系 | `plt.scatter(x, y)` |
-| **标签与网格** | 轴名、标题、网格线 | `xlabel`/`ylabel`/`title`/`grid(True)` |
+例如 day=[1,2,3]、sales=[20,22,19] 表示三天销量。折线强调随天数先升后降；若 x 表示不同顾客的广告曝光次数、y 表示各自消费额，顾客行号通常没有需要连接的意义，应优先散点。
 
-```python
-import matplotlib
-matplotlib.use("Agg")   # 无显示器的脚本：先设后端
-import matplotlib.pyplot as plt
-import numpy as np
+## 二、为什么：先明确问题，再决定画法
 
-x = np.array([1, 2, 3, 4])
-y = np.array([2, 3, 5, 4])
-plt.plot(x, y)
-plt.xlabel("x")
-plt.ylabel("y")
-plt.title("demo")
-plt.grid(True)
-plt.savefig("out/demo.png")
-plt.close()
-```
+表格适合查精确数值，图适合发现整体趋势、异常观测和两变量关系。图不是表格的替代品，更不能凭漂亮的走势直接下统计结论。
 
-### 2. 为什么
+“这十天销量如何变化？”关注有序变化，选折线；“广告费较高的样本是否通常销量也高？”关注关系，选散点。散点向右上延伸只能提示样本中存在正向关联，不能证明提高广告费必然导致销量上升；季节、价格、样本选择都可能影响结果。
 
-考纲 **b** 的可视化在机考里经常落成：
+同图双折线适合比较同横轴、同单位的两组观测，如 A/B 店销量。若把销量与温度直接放在同一纵轴，量纲不同会混淆读者，本课先分别画图。
 
-- 给定序列画折线，并写上轴标签与标题  
-- 给定点集画散点，观察相关  
-- 同图两条折线（不同颜色/线型）  
-- 打开网格便于读数  
+标签要交代变量和单位，标题要交代对象或问题；网格帮助估读，但不能补救错误坐标。颜色用于区分系列，线型和标记还能让黑白打印下的系列可辨认。
 
-易扣分：`x`/`y` 长度不一致；整张 DataFrame 丢进 `plot`；脚本不保存也不 `close`；该用散点却用折线乱连；中文标签变方框。
+## 三、怎么写：准备数据 → 新建图 → 绘制 → 标注 → 输出 → 关闭
 
-### 3. 怎么写（简 → 繁）
-
-**最简折线**
+下面是完整的交互式例题：一周销量走势与广告费—销量关系。两张图各自创建，避免内容叠加；它不要求写入任何磁盘文件。
 
 ```python
-plt.plot([1, 2, 3, 4, 5], [2, 4, 3, 6, 5])
-plt.xlabel("Day")
-plt.ylabel("Sales")
-plt.title("Sales over days")
-plt.grid(True)
-plt.savefig("out/plot_basic.png")
-plt.close()
-```
-
-只传一个列表时，横轴自动是 `0,1,2,...`：`plt.plot([3, 1, 4, 1, 5])`。
-
-**样式：颜色 / 线型 / 标记**
-
-| 元素 | 例 |
-|------|-----|
-| 颜色 | `r` `g` `b` `k`；或 `color="tab:blue"` |
-| 线型 | `-` 实线；`--` 虚线；`:` 点线 |
-| 标记 | `o` 圆；`s` 方；`^` 三角 |
-
-```python
-x = [1, 2, 3, 4, 5]
-plt.plot(x, [10, 12, 11, 15, 14], color="blue", linestyle="-", marker="o", label="A")
-plt.plot(x, [9, 10, 12, 11, 13], color="red", linestyle="--", marker="s", label="B")
-plt.xlabel("Day")
-plt.ylabel("Sales")
-plt.title("Two stores")
-plt.grid(True)
-plt.legend()
-plt.savefig("out/two.png")
-plt.close()
-```
-
-也可写格式串：`plt.plot(x, y, "b-o")`。作业推荐关键字写法，更清晰。
-
-**散点**
-
-```python
-import numpy as np
-rng = np.random.default_rng(0)
-x = rng.normal(0, 1, 50)
-y = 2 * x + rng.normal(0, 0.5, 50)
-plt.scatter(x, y)
-plt.xlabel("x")
-plt.ylabel("y")
-plt.title("Scatter demo")
-plt.grid(True)
-plt.savefig("out/scatter.png")
-plt.close()
-```
-
-可选：`s` 控制点大小，`c` 控制颜色（本课轻触）。
-
-**用 Pandas 取列再画**
-
-```python
-import pandas as pd
-df = pd.DataFrame({"day": [1, 2, 3, 4], "sales": [10, 12, 9, 15]})
-plt.plot(df["day"], df["sales"], marker="o")
-# 不要指望 plt.plot(df) 一定按 day 画 —— 它常用行索引当 x，并画多列
-```
-
-**show vs 保存**
-
-| 环境 | 做法 |
-|------|------|
-| Jupyter | `plt.show()` 或自动显示 |
-| `.py` 脚本 | `savefig` + `close`（本课 examples 即如此） |
-
-### 4. 易错点
-
-| 错法 | 对法 |
-|------|------|
-| `len(x) != len(y)` 仍 plot | 先检查长度；或对 DataFrame 同一批行 `dropna` |
-| 只 plot 不 savefig/close | 脚本里保存后 `plt.close()` |
-| `plt.plot(df)` 期望只画一列 | `plt.plot(df["day"], df["sales"])` |
-| 无序相关点用折线乱连 | 改用 `scatter` |
-| 轴标签写中文，评分机方框 | 作业统一英文：`xlabel("Day")` |
-
-```python
-# 长度不一致 → ValueError
-# plt.plot([1, 2, 3], [10, 20])
-
-# 无序点
-xu, yu = [3, 1, 4, 2], [2, 5, 1, 4]
-# plt.plot(xu, yu)    # 通常不合适
-plt.scatter(xu, yu)   # 合适
-```
-
-### 5. 何时用
-
-| 需求 | 用 | 别用 |
-|------|-----|------|
-| 有序趋势（时间、天数） | **plot** | 无序点硬连线 |
-| 两变量关系 / 分布 | **scatter** | 按行号折线乱连 |
-| 让人读懂 | **xlabel/ylabel/title** | 裸图 |
-| 便于估读 | **grid(True)** | 无故关网格 |
-| 批量脚本出图 | **savefig+close** | 依赖弹窗 |
-
-| A | B | 选 |
-|---|---|-----|
-| plot | scatter | 趋势 → plot；关系 → scatter |
-| `"b-o"` | `color=`/`marker=` | 演示可用格式串；作业推荐关键字 |
-| `plot(y)` | `plot(x,y)` | 横轴即 0..n-1 → 可只传 y；有业务 x → 必须两个 |
-
----
-
-## 考研风例题
-
-**例 1** · 一周销量折线（带标记 + 网格）
-
-```python
-import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 days = [1, 2, 3, 4, 5, 6, 7]
 sales = [20, 22, 19, 25, 24, 28, 27]
-plt.plot(days, sales, color="steelblue", marker="o")
+ad = [1, 2, 3, 4, 5, 6]
+ad_sales = [10, 12, 15, 14, 18, 20]
+
+if len(days) != len(sales):
+    raise ValueError("days and sales must have equal length")
+fig = plt.figure()
+plt.plot(days, sales, color="steelblue", linestyle="-", marker="o")
 plt.xlabel("Day")
-plt.ylabel("Sales")
+plt.ylabel("Sales (units)")
 plt.title("Weekly sales")
 plt.grid(True)
-plt.savefig("out/exam1_weekly.png")
-plt.close()
-```
+plt.show()
+plt.close(fig)
 
-**例 2** · 广告费 vs 销量散点
-
-```python
-import numpy as np
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-
-ad = np.array([1, 2, 3, 4, 5, 6])
-sales = np.array([10, 12, 15, 14, 18, 20])
-plt.scatter(ad, sales, color="darkorange")
+if len(ad) != len(ad_sales):
+    raise ValueError("ad and sales must have equal length")
+fig = plt.figure()
+plt.scatter(ad, ad_sales, color="darkorange")
 plt.xlabel("Ad spend")
-plt.ylabel("Sales")
-plt.title("Ad vs Sales")
+plt.ylabel("Sales (units)")
+plt.title("Ad spend vs Sales")
 plt.grid(True)
-plt.savefig("out/exam2_scatter.png")
-plt.close()
+plt.show()
+plt.close(fig)
 ```
 
-**例 3** · 同图双折线 A/B
+第一张图第 3 天回落，但第 7 天销量比第 1 天高，不能据此声称“每天都增长”。第二张图整体向右上延伸，第 4 个样本却低于第 3 个：关联不等于每一点严格单调，更不等于因果。
+
+plot 的 color 控制颜色，linestyle="-" 表示实线、"--" 表示虚线，marker="o" 为圆点、"s" 为方点。plot(x,y,"b-o") 是蓝色实线圆点的简写，初学封装函数时用关键字更清楚。只写 plot(y) 时横轴默认 0 到 n-1；若业务横轴是第 1 到第 7 天，不应省略 x。
+
+双系列示例：
 
 ```python
-import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-x = [1, 2, 3, 4, 5]
-plt.plot(x, [10, 11, 13, 12, 15], "b-o", label="A")
-plt.plot(x, [9, 10, 10, 12, 13], "r--s", label="B")
+x = [1, 2, 3, 4]
+a = [10, 11, 13, 12]
+b = [9, 10, 10, 12]
+if not (len(x) == len(a) == len(b)):
+    raise ValueError("length mismatch")
+fig = plt.figure()
+plt.plot(x, a, color="blue", linestyle="-", marker="o", label="A")
+plt.plot(x, b, color="red", linestyle="--", marker="s", label="B")
 plt.xlabel("Day")
 plt.ylabel("Sales")
 plt.title("A vs B")
 plt.grid(True)
 plt.legend()
-plt.savefig("out/exam3_two.png")
-plt.close()
+plt.show()
+plt.close(fig)
 ```
 
----
+label 是系列名称；legend() 才把系列名称展示出来。不要只依赖红蓝颜色区分，线型和标记也不同更稳妥。
 
-## 三道练习与验收
+已有 Pandas 表时，先对成对列共同清洗，再按业务顺序画：
 
-**练习 1 · `plot_series(x, y, out_path) -> str`**  
-等长折线（实线+圆点）；标签固定 `"x"`/`"y"`/`"series"`；`grid(True)`；保存后 close；返回 `out_path`。长度不等 → `ValueError`。  
-**验收**：必须 `plot`；固定英文标签；文件存在且大小 > 0。
+```python
+sub = df[["day", "sales"]].dropna().sort_values("day")
+plt.plot(sub["day"], sub["sales"], marker="o")
+```
 
-**练习 2 · `plot_scatter(x, y, out_path) -> str`**  
-散点；标签 `"x"`/`"y"`/`"scatter"`；`grid(True)`；保存；返回路径。  
-**验收**：必须 `scatter`（不得只用 plot 冒充）；长度校验。
+这里 df 应是已读入的 DataFrame。若日期是字符串，应先按真实日期含义转换，不要让字符串排序造成“1,10,2”的顺序。也不要为让图好看按 sales 排序，那会破坏时间顺序。
 
-**练习 3 · `plot_two_series(x, y1, y2, out_path) -> str`**  
-蓝实线圆点 label `"A"`；红虚线方点 label `"B"`；标题 `"A vs B"`；必须 `legend()`。三者长度不全等 → `ValueError`。  
-**验收**：双系列 + legend；禁止 seaborn。
+作业函数按题面保存 PNG：在无显示器脚本中先 import matplotlib，再 matplotlib.use("Agg")，最后导入 pyplot；绘制后 savefig(out_path)，然后 close 当前函数创建的 Figure，返回原样路径字符串。Agg 不会弹窗，适合批量渲染；交互学习可以 show。savefig 必须在 close 之前。保存目录须存在；样例脚本会准备自己的 out/。这里说明的是供你运行的代码契约，本次课件交付本身不在本地生成图。
 
-题目全文与签名见本课目录 `homework.md`。标准答案约 **15:30** 写入 `homework/answers.ipynb`。
+## 四、易错点：会出图不等于图正确
 
----
+1. 长度相同却配错观测。分别对 x/y dropna 后，长度甚至可能碰巧相同，但行对应已错。正确做法是对两列共同筛选，再同时取列。长度校验只能发现数量错误，不能发现语义错配。
+2. 误以为 plot 自动按 x 排序。x=[3,1,2] 时它按 3→1→2 连线。时间趋势应把整对观测一起按时间排序；无序样本关系应换 scatter，不能只排序 x 而不调整 y。
+3. 用 plot(df) 期待自动挑 day 当横轴。直接传二维数值表时通常按索引为多列画线。应显式写 plot(df["day"],df["sales"])。
+4. 图越画越多、曲线叠加。pyplot 操作当前图；每张独立图先 figure，完成后 close(fig)。函数只关闭自己创建的图，不要随意 close("all") 干扰调用者。
+5. 保存空图或找不到目录。先绘图和标注，再保存，最后关闭；父目录不存在时应由调用约定明确创建。本课只要求长度不匹配抛 ValueError，不要把所有异常都吞掉并假装成功。
+6. 中文显示方框。常见原因是环境缺合适字体，并非绘图数据坏了；本课验收统一英文标签。透明度 alpha 影响重叠点可见性，scatter 的 s 表示标记面积而不是半径，切勿把面积增加误读成半径同比增加。
 
-## 下节预告 · L07
+## 五、何时用：用问题检验选择
 
-Matplotlib 柱状 · 直方图 · 图例与保存（`bar` / `hist`、图例规范、`savefig` 参数）。
+有序横轴下看变化，用 plot；无必须连接顺序的二维观测看关系，用 scatter。时间序列也可用散点强调离散采样，因此选择是表达目的，不是“时间数据绝不能 scatter”的硬规则。若连线会暗示不存在的连续过程，宁可只标出观测点并说明采样方式。
+
+读图时依次问：横纵轴变量与单位是什么？每个点对应哪个观测？连线顺序是否有业务意义？坐标范围是否夸大波动？是否有异常或重叠点？是否把样本关联误说成因果？这些检查比换配色更重要。
+
+机试封装顺序：先看函数签名和固定字符串，再校验长度、创建独立图、调用正确图元、补齐标签/标题/网格、按需 legend、保存并关闭、返回题定路径。除检查输出文件，还要检查图元、样式和异常行为；一张非空 PNG 不能证明题目做对。
+
+## 三道练习摘要与硬验收
+
+题目完整版本以 L06/homework.md 为准，本次保留原三道题的接口与评分要求。
+
+1. plot_series(x,y,out_path)：实线圆点折线，标签 x/y、标题 series、网格；保存并关闭，返回原路径。长度不等必须 ValueError。
+2. plot_scatter(x,y,out_path)：必须调用 scatter，标签 x/y、标题 scatter、网格；保存并关闭、返回路径，长度不等必须 ValueError。
+3. plot_two_series(x,y1,y2,out_path)：蓝实线圆点 A、红虚线方点 B，标签 x/y、标题 A vs B、网格、图例；保存关闭并返回路径，三者长度不全等必须 ValueError。
+
+共同验收：PNG 可解码且尺寸为正；正常/单点/等长空序列按题面契约完成，输入不被修改；异常长度不创建输出文件、不泄漏新 Figure；既有 Figure 不受影响；图元数量、数据、指定样式与固定文字逐项核对。输入限定为有限数值的一维列表或数组，输出为 .png 字符串路径且父目录已存在；不要求处理生成器、非数值输入或自动创建任意父目录。
+
+标准答案：homework/answers.ipynb 当前为占位，约 9:30 写标准答案。
+
+## 下节预告
+
+L07 Matplotlib 柱状·直方图·图例与保存。今天先分清趋势和关系，下次学习类别比较、数值分布以及更规范的图例与保存。

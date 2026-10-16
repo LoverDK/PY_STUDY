@@ -7,15 +7,16 @@
   "excluded": [
     "计算机系统原理"
   ],
-  "lesson_index": 5,
-  "lesson_id": "L05",
-  "next_topic": "L06 Matplotlib 折线与散点入门",
+  "lesson_index": 6,
+  "lesson_id": "L06",
+  "next_topic": "L07 Matplotlib 柱状·直方图·图例与保存",
   "delivered_lessons": [
     "L01 语法快复（上）：IO·分支循环·字符串·容器·推导式",
     "L02 语法快复（下）：函数·递归·文件·异常·类与继承",
     "L03 从文件到分析表：pandas 读入与表结构",
     "L04 NumPy：数组、索引、广播与统计汇总",
-    "L05 Pandas：缺失值、类型、分组与合并"
+    "L05 Pandas：缺失值、类型、分组与合并",
+    "L06 Matplotlib 折线与散点入门"
   ],
   "total_lessons_planned": 142,
   "schedule_note": "One lesson per day through 2027-03-01; L06..L142 = 137 lessons ≈ calendar days from 2026-10-16.",
