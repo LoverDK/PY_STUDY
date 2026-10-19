@@ -1,0 +1,7 @@
+student,track,score,minutes
+s1,Python,60,10
+s2,SQL,70,15
+s3,Python,80,20
+s4,,90,25
+s5,C,,30
+s6,SQL,,40

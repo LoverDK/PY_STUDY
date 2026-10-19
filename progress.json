@@ -7,9 +7,9 @@
   "excluded": [
     "计算机系统原理"
   ],
-  "lesson_index": 7,
-  "lesson_id": "L07",
-  "next_topic": "L08 Pandas 描述统计与 value_counts 深练",
+  "lesson_index": 8,
+  "lesson_id": "L08",
+  "next_topic": "L09 Pandas 多条件过滤与 loc/iloc 精熟",
   "delivered_lessons": [
     "L01 语法快复（上）：IO·分支循环·字符串·容器·推导式",
     "L02 语法快复（下）：函数·递归·文件·异常·类与继承",
@@ -17,10 +17,19 @@
     "L04 NumPy：数组、索引、广播与统计汇总",
     "L05 Pandas：缺失值、类型、分组与合并",
     "L06 Matplotlib 折线与散点入门",
-    "L07 Matplotlib 柱状·直方图·图例与保存"
+    "L07 Matplotlib 柱状·直方图·图例与保存",
+    "L08 Pandas 描述统计与 value_counts 深练"
   ],
   "total_lessons_planned": 142,
-  "schedule_note": "One lesson per day through 2027-03-01; L06..L142 = 137 lessons ≈ calendar days from 2026-10-16.",
+  "schedule_note": "One main lesson per weekday (Asia/Shanghai); weekends only user-requested enrichment/practice without advancing main progress. Continue sequentially to L142; 2027-03-01 is no longer a hard deadline.",
   "local_folder_pattern": "L01..L142",
-  "local_root": "D:\\\\study\\\\大三上\\\\机器学习\\\\python"
+  "local_root": "D:\\\\study\\\\大三上\\\\机器学习\\\\python",
+  "deadline_is_hard": false,
+  "teaching_weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR"
+  ]
 }
