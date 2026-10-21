@@ -7,9 +7,9 @@
   "excluded": [
     "计算机系统原理"
   ],
-  "lesson_index": 8,
-  "lesson_id": "L08",
-  "next_topic": "L09 Pandas 多条件过滤与 loc/iloc 精熟",
+  "lesson_index": 9,
+  "lesson_id": "L09",
+  "next_topic": "L10 Pandas apply / map / 自定义列",
   "delivered_lessons": [
     "L01 语法快复（上）：IO·分支循环·字符串·容器·推导式",
     "L02 语法快复（下）：函数·递归·文件·异常·类与继承",
@@ -18,7 +18,8 @@
     "L05 Pandas：缺失值、类型、分组与合并",
     "L06 Matplotlib 折线与散点入门",
     "L07 Matplotlib 柱状·直方图·图例与保存",
-    "L08 Pandas 描述统计与 value_counts 深练"
+    "L08 Pandas 描述统计与 value_counts 深练",
+    "L09 Pandas 多条件过滤与 loc/iloc 精熟"
   ],
   "total_lessons_planned": 142,
   "schedule_note": "One main lesson per weekday (Asia/Shanghai); weekends only user-requested enrichment/practice without advancing main progress. Continue sequentially to L142; 2027-03-01 is no longer a hard deadline.",
