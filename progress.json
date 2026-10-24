@@ -7,9 +7,9 @@
   "excluded": [
     "计算机系统原理"
   ],
-  "lesson_index": 10,
-  "lesson_id": "L10",
-  "next_topic": "L11 Pandas 时间与排序·去重",
+  "lesson_index": 11,
+  "lesson_id": "L11",
+  "next_topic": "L12 NumPy 进阶：花式索引与轴操作复习",
   "delivered_lessons": [
     "L01 语法快复（上）：IO·分支循环·字符串·容器·推导式",
     "L02 语法快复（下）：函数·递归·文件·异常·类与继承",
@@ -20,7 +20,8 @@
     "L07 Matplotlib 柱状·直方图·图例与保存",
     "L08 Pandas 描述统计与 value_counts 深练",
     "L09 Pandas 多条件过滤与 loc/iloc 精熟",
-    "L10 Pandas apply / map / 自定义列"
+    "L10 Pandas apply / map / 自定义列",
+    "L11 Pandas 时间与排序·去重"
   ],
   "total_lessons_planned": 142,
   "schedule_note": "One main lesson per weekday (Asia/Shanghai); weekends only user-requested enrichment/practice without advancing main progress. Continue sequentially to L142; 2027-03-01 is no longer a hard deadline.",
@@ -33,5 +34,12 @@
     "WE",
     "TH",
     "FR"
+  ],
+  "weekend_main_lesson_exceptions": [
+    {
+      "date": "2026-10-24",
+      "lesson_id": "L11",
+      "reason": "用户主动要求周末推进一节主课；仅本次例外，常规工作日计划不变"
+    }
   ]
 }
