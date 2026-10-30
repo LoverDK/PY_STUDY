@@ -99,31 +99,41 @@
       "id": "L16",
       "n": 16,
       "title": "机试综合：Pandas 读洗筛汇小卷",
-      "delivered": true
+      "delivered": true,
+      "delivery_unit_id": "16-20",
+      "delivery_path": "16-20/"
     },
     {
       "id": "L17",
       "n": 17,
       "title": "机试综合：可视化读图与作图指令",
-      "delivered": false
+      "delivered": true,
+      "delivery_unit_id": "16-20",
+      "delivery_path": "16-20/"
     },
     {
       "id": "L18",
       "n": 18,
       "title": "Python 容器与推导式回炉（易错卷）",
-      "delivered": false
+      "delivered": true,
+      "delivery_unit_id": "16-20",
+      "delivery_path": "16-20/"
     },
     {
       "id": "L19",
       "n": 19,
       "title": "函数与异常回炉（易错卷）",
-      "delivered": false
+      "delivered": true,
+      "delivery_unit_id": "16-20",
+      "delivery_path": "16-20/"
     },
     {
       "id": "L20",
       "n": 20,
       "title": "阶段小结：DSBA-Python 应知应会清单",
-      "delivered": false
+      "delivered": true,
+      "delivery_unit_id": "16-20",
+      "delivery_path": "16-20/"
     },
     {
       "id": "L21",
@@ -856,6 +866,23 @@
       "n": 142,
       "title": "C 综合小卷与长课表收官",
       "delivered": false
+    }
+  ],
+  "delivery_units": [
+    {
+      "id": "16-20",
+      "title": "16-20",
+      "path": "16-20/",
+      "lesson_ids": [
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20"
+      ],
+      "delivered": true,
+      "delivery_date": "2026-10-30",
+      "reason": "用户明确授权L16–L20合并为一节；2026-10-31起从L21继续"
     }
   ]
 }

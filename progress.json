@@ -7,9 +7,9 @@
   "excluded": [
     "计算机系统原理"
   ],
-  "lesson_index": 16,
-  "lesson_id": "L16",
-  "next_topic": "L17 机试综合：可视化读图与作图指令",
+  "lesson_index": 20,
+  "lesson_id": "L20",
+  "next_topic": "L21 数组与字符串基础操作",
   "delivered_lessons": [
     "L01 语法快复（上）：IO·分支循环·字符串·容器·推导式",
     "L02 语法快复（下）：函数·递归·文件·异常·类与继承",
@@ -26,7 +26,11 @@
     "L13 NumPy+Pandas 联用小卷（读表→数组统计）",
     "L14 算法复杂度入门：大 O 与常见对照",
     "L15 复杂度估题专项：循环嵌套与均摊直觉",
-    "L16 机试综合：Pandas 读洗筛汇小卷"
+    "L16 机试综合：Pandas 读洗筛汇小卷",
+    "L17 机试综合：可视化读图与作图指令",
+    "L18 Python 容器与推导式回炉（易错卷）",
+    "L19 函数与异常回炉（易错卷）",
+    "L20 阶段小结：DSBA-Python 应知应会清单"
   ],
   "total_lessons_planned": 142,
   "schedule_note": "One main lesson every day including Saturday and Sunday (Asia/Shanghai), effective 2026-10-25. Advance sequentially one lesson per day through L142; no skipped or combined lessons. 2027-03-01 is not a hard deadline.",
@@ -43,5 +47,26 @@
     "SU"
   ],
   "schedule_effective_date": "2026-10-25",
-  "last_delivery_date": "2026-10-30"
+  "last_delivery_date": "2026-10-30",
+  "last_delivery_unit_id": "16-20",
+  "last_delivery_title": "16-20",
+  "last_delivery_path": "16-20/",
+  "next_delivery_date": "2026-10-31",
+  "merged_lessons": [
+    {
+      "id": "16-20",
+      "title": "16-20",
+      "path": "16-20/",
+      "lesson_ids": [
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20"
+      ],
+      "delivered": true,
+      "delivery_date": "2026-10-30",
+      "reason": "用户明确授权L16–L20合并为一节；2026-10-31起从L21继续"
+    }
+  ]
 }
