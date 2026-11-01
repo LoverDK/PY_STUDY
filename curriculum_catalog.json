@@ -1,5 +1,5 @@
 {
-  "total": 121,
+  "total": 135,
   "deadline": "2027-03-01",
   "excluded": [
     "计算机系统原理"
@@ -457,9 +457,10 @@
       "id": "L61",
       "n": 61,
       "title": "机器学习地图：监督/无监督/强化学习",
-      "delivered": false,
+      "delivered": true,
       "curriculum_status": "active",
-      "teaching_order": 1
+      "teaching_order": 1,
+      "delivery_date": "2026-11-01"
     },
     {
       "id": "L62",
@@ -842,112 +843,112 @@
       "n": 109,
       "title": "人工智能导论：问题类型与智能体视角",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 101
     },
     {
       "id": "L110",
       "n": 110,
       "title": "搜索：盲目搜索 BFS/DFS 复习",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 102
     },
     {
       "id": "L111",
       "n": 111,
       "title": "搜索：启发式与 A* 直觉",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 103
     },
     {
       "id": "L112",
       "n": 112,
       "title": "知识表示浅谈",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 104
     },
     {
       "id": "L113",
       "n": 113,
       "title": "不确定性：概率复习与贝叶斯",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 105
     },
     {
       "id": "L114",
       "n": 114,
       "title": "朴素贝叶斯与生成式直觉",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 106
     },
     {
       "id": "L115",
       "n": 115,
       "title": "强化学习鸟瞰（不深实装）",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 107
     },
     {
       "id": "L116",
       "n": 116,
       "title": "符号 vs 连接主义简史地图",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 108
     },
     {
       "id": "L117",
       "n": 117,
       "title": "大模型能做什么 / 不能做什么",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 109
     },
     {
       "id": "L118",
       "n": 118,
       "title": "提示词工程基础",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 110
     },
     {
       "id": "L119",
       "n": 119,
       "title": "工具调用与 Agent 循环",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 111
     },
     {
       "id": "L120",
       "n": 120,
       "title": "RAG 直觉（检索增强）",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 112
     },
     {
       "id": "L121",
       "n": 121,
       "title": "AI 应用小设计课（步骤级）",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 113
     },
     {
       "id": "L122",
       "n": 122,
       "title": "人工智能导论阶段小结",
       "delivered": false,
-      "curriculum_status": "optional",
-      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
+      "curriculum_status": "active",
+      "teaching_order": 114
     },
     {
       "id": "L123",
@@ -1179,7 +1180,7 @@
     }
   ],
   "teaching_plan": {
-    "version": "2026-11-01-reordered",
+    "version": "2026-11-01-ml-dl-cpp-dsa-sql-ai",
     "effective_date": "2026-11-01",
     "preserve_lesson_ids": true,
     "stage_order": [
@@ -1187,7 +1188,8 @@
       "DL",
       "CPP-FAST",
       "DSA",
-      "SQL"
+      "SQL",
+      "AI-LLM-AGENT"
     ],
     "lesson_sequence": [
       "L61",
@@ -1289,7 +1291,21 @@
       "L129",
       "L130",
       "L131",
-      "L132"
+      "L132",
+      "L109",
+      "L110",
+      "L111",
+      "L112",
+      "L113",
+      "L114",
+      "L115",
+      "L116",
+      "L117",
+      "L118",
+      "L119",
+      "L120",
+      "L121",
+      "L122"
     ],
     "stages": [
       {
@@ -1421,24 +1437,29 @@
           "L131",
           "L132"
         ]
+      },
+      {
+        "id": "AI-LLM-AGENT",
+        "title": "AI导论、LLM与Agent应用",
+        "lesson_ids": [
+          "L109",
+          "L110",
+          "L111",
+          "L112",
+          "L113",
+          "L114",
+          "L115",
+          "L116",
+          "L117",
+          "L118",
+          "L119",
+          "L120",
+          "L121",
+          "L122"
+        ]
       }
     ],
-    "optional_lesson_ids": [
-      "L109",
-      "L110",
-      "L111",
-      "L112",
-      "L113",
-      "L114",
-      "L115",
-      "L116",
-      "L117",
-      "L118",
-      "L119",
-      "L120",
-      "L121",
-      "L122"
-    ],
+    "optional_lesson_ids": [],
     "superseded_lesson_ids": [
       "L136",
       "L137",
@@ -1448,9 +1469,9 @@
       "L141",
       "L142"
     ],
-    "completion_rule": "lesson_sequence中所有课程真实交付后主课结课；不以最大课号或L142判断",
-    "reason": "用户授权从C机器学习开始，顺序ML→DL→C++快过→DSA→SQL"
+    "completion_rule": "lesson_sequence中全部课程真实交付后结课；最后主课L122，不以最大课号或L142判断",
+    "reason": "用户授权ML→DL→C++快过→DSA→SQL→AI/LLM/Agent；2026-11-01明确要求当日开始L61"
   },
   "catalog_entry_count": 142,
-  "total_note": "当前主课原始课号覆盖数：已覆盖21+未来100=121；L16–L20合为一节，实际主课交付单元总数117。历史目录仍保留142个课号。"
+  "total_note": "当前主课原课号覆盖135（排除被C++三节替代的原C七节）；L16–L20合并，实际交付单元131；历史目录142个课号保留。"
 }
