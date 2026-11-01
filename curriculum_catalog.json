@@ -1,5 +1,5 @@
 {
-  "total": 142,
+  "total": 121,
   "deadline": "2027-03-01",
   "excluded": [
     "计算机系统原理"
@@ -145,727 +145,1020 @@
       "id": "L22",
       "n": 22,
       "title": "双指针：对撞与同向",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 52
     },
     {
       "id": "L23",
       "n": 23,
       "title": "滑动窗口入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 53
     },
     {
       "id": "L24",
       "n": 24,
       "title": "滑动窗口进阶（可变窗口）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 54
     },
     {
       "id": "L25",
       "n": 25,
       "title": "链表：概念与遍历",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 55
     },
     {
       "id": "L26",
       "n": 26,
       "title": "链表：反转与快慢指针",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 56
     },
     {
       "id": "L27",
       "n": 27,
       "title": "链表：合并与环检测",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 57
     },
     {
       "id": "L28",
       "n": 28,
       "title": "栈：括号匹配与单调栈入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 58
     },
     {
       "id": "L29",
       "n": 29,
       "title": "栈：表达式与单调栈进阶",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 59
     },
     {
       "id": "L30",
       "n": 30,
       "title": "队列与双端队列",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 60
     },
     {
       "id": "L31",
       "n": 31,
       "title": "递归思维与调用栈",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 61
     },
     {
       "id": "L32",
       "n": 32,
       "title": "分治入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 62
     },
     {
       "id": "L33",
       "n": 33,
       "title": "二叉树：遍历（前中后层序）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 63
     },
     {
       "id": "L34",
       "n": 34,
       "title": "二叉树：高度·对称·路径和",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 64
     },
     {
       "id": "L35",
       "n": 35,
       "title": "二叉搜索树 BST 基础",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 65
     },
     {
       "id": "L36",
       "n": 36,
       "title": "BST 插入删除与验证",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 66
     },
     {
       "id": "L37",
       "n": 37,
       "title": "堆与优先队列",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 67
     },
     {
       "id": "L38",
       "n": 38,
       "title": "堆练习：TopK 与中位数直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 68
     },
     {
       "id": "L39",
       "n": 39,
       "title": "哈希表：计数与去重",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 69
     },
     {
       "id": "L40",
       "n": 40,
       "title": "哈希表：前缀与两数之和族",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 70
     },
     {
       "id": "L41",
       "n": 41,
       "title": "排序：选择·插入·冒泡（实现与复杂度）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 71
     },
     {
       "id": "L42",
       "n": 42,
       "title": "排序：归并排序",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 72
     },
     {
       "id": "L43",
       "n": 43,
       "title": "排序：快速排序",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 73
     },
     {
       "id": "L44",
       "n": 44,
       "title": "二分查找：基础模板",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 74
     },
     {
       "id": "L45",
       "n": 45,
       "title": "二分查找：边界与答案二分",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 75
     },
     {
       "id": "L46",
       "n": 46,
       "title": "图：表示法与 BFS",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 76
     },
     {
       "id": "L47",
       "n": 47,
       "title": "图：DFS 与连通性",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 77
     },
     {
       "id": "L48",
       "n": 48,
       "title": "图：拓扑排序入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 78
     },
     {
       "id": "L49",
       "n": 49,
       "title": "图：最短路 BFS（无权）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 79
     },
     {
       "id": "L50",
       "n": 50,
       "title": "贪心策略入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 80
     },
     {
       "id": "L51",
       "n": 51,
       "title": "贪心典型题对照",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 81
     },
     {
       "id": "L52",
       "n": 52,
       "title": "动态规划入门：斐波那契与爬楼梯",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 82
     },
     {
       "id": "L53",
       "n": 53,
       "title": "一维 DP：最大子数组与打家劫舍族",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 83
     },
     {
       "id": "L54",
       "n": 54,
       "title": "一维 DP：背包直觉（0-1）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 84
     },
     {
       "id": "L55",
       "n": 55,
       "title": "二维 DP 入门：路径计数",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 85
     },
     {
       "id": "L56",
       "n": 56,
       "title": "字符串算法：KMP 直觉或暴力对照",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 86
     },
     {
       "id": "L57",
       "n": 57,
       "title": "综合：数组字符串套题日",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 87
     },
     {
       "id": "L58",
       "n": 58,
       "title": "综合：链表栈队列套题日",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 88
     },
     {
       "id": "L59",
       "n": 59,
       "title": "综合：树与图套题日",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 89
     },
     {
       "id": "L60",
       "n": 60,
       "title": "DSA 阶段小结与易错清单",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 90
     },
     {
       "id": "L61",
       "n": 61,
       "title": "机器学习地图：监督/无监督/强化学习",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 1
     },
     {
       "id": "L62",
       "n": 62,
       "title": "数据划分与评估指标：分类",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 2
     },
     {
       "id": "L63",
       "n": 63,
       "title": "评估指标：回归与过拟合欠拟合",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 3
     },
     {
       "id": "L64",
       "n": 64,
       "title": "线性回归：直觉与 sklearn",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 4
     },
     {
       "id": "L65",
       "n": 65,
       "title": "逻辑回归：分类基线",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 5
     },
     {
       "id": "L66",
       "n": 66,
       "title": "特征缩放与管道 Pipeline 入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 6
     },
     {
       "id": "L67",
       "n": 67,
       "title": "KNN 与模型选择直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 7
     },
     {
       "id": "L68",
       "n": 68,
       "title": "决策树与随机森林入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 8
     },
     {
       "id": "L69",
       "n": 69,
       "title": "SVM 直觉（不深推）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 9
     },
     {
       "id": "L70",
       "n": 70,
       "title": "聚类：KMeans 与轮廓直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 10
     },
     {
       "id": "L71",
       "n": 71,
       "title": "降维直觉：PCA 入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 11
     },
     {
       "id": "L72",
       "n": 72,
       "title": "sklearn 综合项目课（短）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 12
     },
     {
       "id": "L73",
       "n": 73,
       "title": "交叉验证与网格搜索入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 13
     },
     {
       "id": "L74",
       "n": 74,
       "title": "类别不平衡与阈值处理直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 14
     },
     {
       "id": "L75",
       "n": 75,
       "title": "特征工程常用手法",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 15
     },
     {
       "id": "L76",
       "n": 76,
       "title": "经典 ML 易错与面试口述",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 16
     },
     {
       "id": "L77",
       "n": 77,
       "title": "ML→DL 衔接：表示学习直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 17
     },
     {
       "id": "L78",
       "n": 78,
       "title": "经典 ML 阶段小结",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 18
     },
     {
       "id": "L79",
       "n": 79,
       "title": "神经网络直觉：感知机到 MLP",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 19
     },
     {
       "id": "L80",
       "n": 80,
       "title": "激活函数与损失函数",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 20
     },
     {
       "id": "L81",
       "n": 81,
       "title": "反向传播直觉（计算图）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 21
     },
     {
       "id": "L82",
       "n": 82,
       "title": "用极简代码搭一个 MLP",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 22
     },
     {
       "id": "L83",
       "n": 83,
       "title": "优化器：SGD / Momentum / Adam 直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 23
     },
     {
       "id": "L84",
       "n": 84,
       "title": "学习率、batch、epoch",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 24
     },
     {
       "id": "L85",
       "n": 85,
       "title": "正则化：权重衰减·Dropout·早停",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 25
     },
     {
       "id": "L86",
       "n": 86,
       "title": "CNN：卷积与特征图",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 26
     },
     {
       "id": "L87",
       "n": 87,
       "title": "CNN：池化、感受野、经典小结构",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 27
     },
     {
       "id": "L88",
       "n": 88,
       "title": "CNN 练习：图像分类流程（概念+短代码）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 28
     },
     {
       "id": "L89",
       "n": 89,
       "title": "RNN：序列与隐藏状态",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 29
     },
     {
       "id": "L90",
       "n": 90,
       "title": "LSTM/GRU 直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 30
     },
     {
       "id": "L91",
       "n": 91,
       "title": "注意力机制入门",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 31
     },
     {
       "id": "L92",
       "n": 92,
       "title": "Encoder-Decoder 与 seq2seq 直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 32
     },
     {
       "id": "L93",
       "n": 93,
       "title": "Transformer 结构鸟瞰",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 33
     },
     {
       "id": "L94",
       "n": 94,
       "title": "词嵌入与文本输入表示",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 34
     },
     {
       "id": "L95",
       "n": 95,
       "title": "CV 任务地图：分类/检测/分割（只地图）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 35
     },
     {
       "id": "L96",
       "n": 96,
       "title": "训练现场：数据增强直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 36
     },
     {
       "id": "L97",
       "n": 97,
       "title": "训练现场：梯度消失爆炸与初始化",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 37
     },
     {
       "id": "L98",
       "n": 98,
       "title": "评估：混淆矩阵之外的 DL 指标",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 38
     },
     {
       "id": "L99",
       "n": 99,
       "title": "迁移学习与微调直觉（应用级）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 39
     },
     {
       "id": "L100",
       "n": 100,
       "title": "PyTorch 张量与 autograd 快过",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 40
     },
     {
       "id": "L101",
       "n": 101,
       "title": "PyTorch Module 与训练循环骨架",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 41
     },
     {
       "id": "L102",
       "n": 102,
       "title": "常见报错与调试训练（形状/设备/NaN）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 42
     },
     {
       "id": "L103",
       "n": 103,
       "title": "DL 小卷：MLP 题",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 43
     },
     {
       "id": "L104",
       "n": 104,
       "title": "DL 小卷：CNN/RNN 概念题",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 44
     },
     {
       "id": "L105",
       "n": 105,
       "title": "DL 与经典 ML 怎么选题",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 45
     },
     {
       "id": "L106",
       "n": 106,
       "title": "伦理与局限（过拟合到数据泄漏）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 46
     },
     {
       "id": "L107",
       "n": 107,
       "title": "深度学习阶段小结",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 47
     },
     {
       "id": "L108",
       "n": 108,
       "title": "DL 口述面试清单",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 48
     },
     {
       "id": "L109",
       "n": 109,
       "title": "人工智能导论：问题类型与智能体视角",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L110",
       "n": 110,
       "title": "搜索：盲目搜索 BFS/DFS 复习",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L111",
       "n": 111,
       "title": "搜索：启发式与 A* 直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L112",
       "n": 112,
       "title": "知识表示浅谈",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L113",
       "n": 113,
       "title": "不确定性：概率复习与贝叶斯",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L114",
       "n": 114,
       "title": "朴素贝叶斯与生成式直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L115",
       "n": 115,
       "title": "强化学习鸟瞰（不深实装）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L116",
       "n": 116,
       "title": "符号 vs 连接主义简史地图",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L117",
       "n": 117,
       "title": "大模型能做什么 / 不能做什么",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L118",
       "n": 118,
       "title": "提示词工程基础",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L119",
       "n": 119,
       "title": "工具调用与 Agent 循环",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L120",
       "n": 120,
       "title": "RAG 直觉（检索增强）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L121",
       "n": 121,
       "title": "AI 应用小设计课（步骤级）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L122",
       "n": 122,
       "title": "人工智能导论阶段小结",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "optional",
+      "reason": "2026-11-01新主课顺序未包含，保留作按需加课，不自动安排"
     },
     {
       "id": "L123",
       "n": 123,
       "title": "关系模型与表直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 91
     },
     {
       "id": "L124",
       "n": 124,
       "title": "SQL SELECT / WHERE / ORDER BY",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 92
     },
     {
       "id": "L125",
       "n": 125,
       "title": "多表 JOIN（INNER/LEFT）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 93
     },
     {
       "id": "L126",
       "n": 126,
       "title": "JOIN 进阶与注意事项",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 94
     },
     {
       "id": "L127",
       "n": 127,
       "title": "聚合 GROUP BY / HAVING",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 95
     },
     {
       "id": "L128",
       "n": 128,
       "title": "子查询",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 96
     },
     {
       "id": "L129",
       "n": 129,
       "title": "窗口函数入门（可选考点浅讲）",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 97
     },
     {
       "id": "L130",
       "n": 130,
       "title": "索引与执行直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 98
     },
     {
       "id": "L131",
       "n": 131,
       "title": "事务与 ACID 直觉",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 99
     },
     {
       "id": "L132",
       "n": 132,
       "title": "SQL 综合小卷与阶段小结",
-      "delivered": false
+      "delivered": false,
+      "curriculum_status": "active",
+      "teaching_order": 100
     },
     {
       "id": "L133",
       "n": 133,
-      "title": "C 程序结构与编译运行",
-      "delivered": false
+      "title": "C++ 快速复习：编译、类型、控制流与函数",
+      "delivered": false,
+      "original_title": "C 程序结构与编译运行",
+      "language": "cpp",
+      "phase": "CPP-FAST",
+      "curriculum_status": "active",
+      "teaching_order": 49
     },
     {
       "id": "L134",
       "n": 134,
-      "title": "基本类型、运算符与控制流",
-      "delivered": false
+      "title": "C++ 快速复习：string、vector、引用与常用 STL",
+      "delivered": false,
+      "original_title": "基本类型、运算符与控制流",
+      "language": "cpp",
+      "phase": "CPP-FAST",
+      "curriculum_status": "active",
+      "teaching_order": 50
     },
     {
       "id": "L135",
       "n": 135,
-      "title": "数组与字符串（C）",
-      "delivered": false
+      "title": "C++ 快速复习：类与 RAII、指针边界及综合练习",
+      "delivered": false,
+      "original_title": "数组与字符串（C）",
+      "language": "cpp",
+      "phase": "CPP-FAST",
+      "curriculum_status": "active",
+      "teaching_order": 51
     },
     {
       "id": "L136",
       "n": 136,
       "title": "指针基础",
-      "delivered": false
+      "delivered": false,
+      "original_title": "指针基础",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     },
     {
       "id": "L137",
       "n": 137,
       "title": "指针与数组、函数传参",
-      "delivered": false
+      "delivered": false,
+      "original_title": "指针与数组、函数传参",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     },
     {
       "id": "L138",
       "n": 138,
       "title": "结构体与 typedef",
-      "delivered": false
+      "delivered": false,
+      "original_title": "结构体与 typedef",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     },
     {
       "id": "L139",
       "n": 139,
       "title": "动态内存 malloc/free",
-      "delivered": false
+      "delivered": false,
+      "original_title": "动态内存 malloc/free",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     },
     {
       "id": "L140",
       "n": 140,
       "title": "头文件、多文件与链接直觉",
-      "delivered": false
+      "delivered": false,
+      "original_title": "头文件、多文件与链接直觉",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     },
     {
       "id": "L141",
       "n": 141,
       "title": "常见未定义行为与调试",
-      "delivered": false
+      "delivered": false,
+      "original_title": "常见未定义行为与调试",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     },
     {
       "id": "L142",
       "n": 142,
       "title": "C 综合小卷与长课表收官",
-      "delivered": false
+      "delivered": false,
+      "original_title": "C 综合小卷与长课表收官",
+      "curriculum_status": "superseded",
+      "superseded_by": [
+        "L133",
+        "L134",
+        "L135"
+      ],
+      "reason": "原C基础十节替换为C++基础三节快过；不标记已交付"
     }
   ],
   "delivery_units": [
@@ -884,5 +1177,280 @@
       "delivery_date": "2026-10-30",
       "reason": "用户明确授权L16–L20合并为一节；2026-10-31起从L21继续"
     }
-  ]
+  ],
+  "teaching_plan": {
+    "version": "2026-11-01-reordered",
+    "effective_date": "2026-11-01",
+    "preserve_lesson_ids": true,
+    "stage_order": [
+      "ML",
+      "DL",
+      "CPP-FAST",
+      "DSA",
+      "SQL"
+    ],
+    "lesson_sequence": [
+      "L61",
+      "L62",
+      "L63",
+      "L64",
+      "L65",
+      "L66",
+      "L67",
+      "L68",
+      "L69",
+      "L70",
+      "L71",
+      "L72",
+      "L73",
+      "L74",
+      "L75",
+      "L76",
+      "L77",
+      "L78",
+      "L79",
+      "L80",
+      "L81",
+      "L82",
+      "L83",
+      "L84",
+      "L85",
+      "L86",
+      "L87",
+      "L88",
+      "L89",
+      "L90",
+      "L91",
+      "L92",
+      "L93",
+      "L94",
+      "L95",
+      "L96",
+      "L97",
+      "L98",
+      "L99",
+      "L100",
+      "L101",
+      "L102",
+      "L103",
+      "L104",
+      "L105",
+      "L106",
+      "L107",
+      "L108",
+      "L133",
+      "L134",
+      "L135",
+      "L22",
+      "L23",
+      "L24",
+      "L25",
+      "L26",
+      "L27",
+      "L28",
+      "L29",
+      "L30",
+      "L31",
+      "L32",
+      "L33",
+      "L34",
+      "L35",
+      "L36",
+      "L37",
+      "L38",
+      "L39",
+      "L40",
+      "L41",
+      "L42",
+      "L43",
+      "L44",
+      "L45",
+      "L46",
+      "L47",
+      "L48",
+      "L49",
+      "L50",
+      "L51",
+      "L52",
+      "L53",
+      "L54",
+      "L55",
+      "L56",
+      "L57",
+      "L58",
+      "L59",
+      "L60",
+      "L123",
+      "L124",
+      "L125",
+      "L126",
+      "L127",
+      "L128",
+      "L129",
+      "L130",
+      "L131",
+      "L132"
+    ],
+    "stages": [
+      {
+        "id": "ML",
+        "title": "机器学习",
+        "lesson_ids": [
+          "L61",
+          "L62",
+          "L63",
+          "L64",
+          "L65",
+          "L66",
+          "L67",
+          "L68",
+          "L69",
+          "L70",
+          "L71",
+          "L72",
+          "L73",
+          "L74",
+          "L75",
+          "L76",
+          "L77",
+          "L78"
+        ]
+      },
+      {
+        "id": "DL",
+        "title": "深度学习",
+        "lesson_ids": [
+          "L79",
+          "L80",
+          "L81",
+          "L82",
+          "L83",
+          "L84",
+          "L85",
+          "L86",
+          "L87",
+          "L88",
+          "L89",
+          "L90",
+          "L91",
+          "L92",
+          "L93",
+          "L94",
+          "L95",
+          "L96",
+          "L97",
+          "L98",
+          "L99",
+          "L100",
+          "L101",
+          "L102",
+          "L103",
+          "L104",
+          "L105",
+          "L106",
+          "L107",
+          "L108"
+        ]
+      },
+      {
+        "id": "CPP-FAST",
+        "title": "C++基础快过",
+        "lesson_ids": [
+          "L133",
+          "L134",
+          "L135"
+        ]
+      },
+      {
+        "id": "DSA",
+        "title": "数据结构与算法（L21已交付）",
+        "lesson_ids": [
+          "L22",
+          "L23",
+          "L24",
+          "L25",
+          "L26",
+          "L27",
+          "L28",
+          "L29",
+          "L30",
+          "L31",
+          "L32",
+          "L33",
+          "L34",
+          "L35",
+          "L36",
+          "L37",
+          "L38",
+          "L39",
+          "L40",
+          "L41",
+          "L42",
+          "L43",
+          "L44",
+          "L45",
+          "L46",
+          "L47",
+          "L48",
+          "L49",
+          "L50",
+          "L51",
+          "L52",
+          "L53",
+          "L54",
+          "L55",
+          "L56",
+          "L57",
+          "L58",
+          "L59",
+          "L60"
+        ]
+      },
+      {
+        "id": "SQL",
+        "title": "SQL",
+        "lesson_ids": [
+          "L123",
+          "L124",
+          "L125",
+          "L126",
+          "L127",
+          "L128",
+          "L129",
+          "L130",
+          "L131",
+          "L132"
+        ]
+      }
+    ],
+    "optional_lesson_ids": [
+      "L109",
+      "L110",
+      "L111",
+      "L112",
+      "L113",
+      "L114",
+      "L115",
+      "L116",
+      "L117",
+      "L118",
+      "L119",
+      "L120",
+      "L121",
+      "L122"
+    ],
+    "superseded_lesson_ids": [
+      "L136",
+      "L137",
+      "L138",
+      "L139",
+      "L140",
+      "L141",
+      "L142"
+    ],
+    "completion_rule": "lesson_sequence中所有课程真实交付后主课结课；不以最大课号或L142判断",
+    "reason": "用户授权从C机器学习开始，顺序ML→DL→C++快过→DSA→SQL"
+  },
+  "catalog_entry_count": 142,
+  "total_note": "当前主课原始课号覆盖数：已覆盖21+未来100=121；L16–L20合为一节，实际主课交付单元总数117。历史目录仍保留142个课号。"
 }
