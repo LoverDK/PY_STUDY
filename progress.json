@@ -7,9 +7,9 @@
   "excluded": [
     "计算机系统原理"
   ],
-  "lesson_index": 61,
-  "lesson_id": "L61",
-  "next_topic": "L62 数据划分与评估指标：分类",
+  "lesson_index": 62,
+  "lesson_id": "L62",
+  "next_topic": "L63 评估指标：回归与过拟合欠拟合",
   "delivered_lessons": [
     "L01 语法快复（上）：IO·分支循环·字符串·容器·推导式",
     "L02 语法快复（下）：函数·递归·文件·异常·类与继承",
@@ -32,7 +32,8 @@
     "L19 函数与异常回炉（易错卷）",
     "L20 阶段小结：DSBA-Python 应知应会清单",
     "L21 数组与字符串基础操作",
-    "L61 机器学习地图：监督/无监督/强化学习"
+    "L61 机器学习地图：监督/无监督/强化学习",
+    "L62 数据划分与评估指标：分类"
   ],
   "total_lessons_planned": 135,
   "schedule_note": "每天含周末一课，以catalog.teaching_plan.lesson_sequence中首个未交付课程为next；禁止用最大已交付课号+1。2027-03-01非硬截止。",
@@ -49,11 +50,11 @@
     "SU"
   ],
   "schedule_effective_date": "2026-10-25",
-  "last_delivery_date": "2026-11-01",
-  "last_delivery_unit_id": "L61",
-  "last_delivery_title": "机器学习地图：监督/无监督/强化学习",
-  "last_delivery_path": "L61/",
-  "next_delivery_date": "2026-11-02",
+  "last_delivery_date": "2026-11-02",
+  "last_delivery_unit_id": "L62",
+  "last_delivery_title": "数据划分与评估指标：分类",
+  "last_delivery_path": "L62/",
+  "next_delivery_date": "2026-11-03",
   "merged_lessons": [
     {
       "id": "16-20",
@@ -188,9 +189,9 @@
     "L121",
     "L122"
   ],
-  "next_lesson_id": "L62",
-  "phase_note": "最近交付L61，后续按显式主课队列继续",
-  "remaining_lessons": 113,
+  "next_lesson_id": "L63",
+  "phase_note": "最近交付L62，后续按显式主课队列继续",
+  "remaining_lessons": 112,
   "planned_delivery_units": 131,
   "completion_rule": "lesson_sequence中全部课程真实交付后结课；最后主课L122，不以最大课号或L142判断",
   "schedule_exceptions": [

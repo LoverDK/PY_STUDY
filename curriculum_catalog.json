@@ -466,9 +466,10 @@
       "id": "L62",
       "n": 62,
       "title": "数据划分与评估指标：分类",
-      "delivered": false,
+      "delivered": true,
       "curriculum_status": "active",
-      "teaching_order": 2
+      "teaching_order": 2,
+      "delivery_date": "2026-11-02"
     },
     {
       "id": "L63",
