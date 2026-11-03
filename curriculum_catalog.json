@@ -475,9 +475,10 @@
       "id": "L63",
       "n": 63,
       "title": "评估指标：回归与过拟合欠拟合",
-      "delivered": false,
+      "delivered": true,
       "curriculum_status": "active",
-      "teaching_order": 3
+      "teaching_order": 3,
+      "delivery_date": "2026-11-03"
     },
     {
       "id": "L64",
